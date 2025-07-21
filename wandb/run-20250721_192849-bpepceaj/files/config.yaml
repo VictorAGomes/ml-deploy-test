@@ -1,0 +1,102 @@
+_wandb:
+    value:
+        cli_version: 0.19.11
+        m:
+            - "1": epoch/f1_score
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": epoch/epoch
+              "6":
+                - 3
+              "7": []
+            - "1": epoch/val_loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": epoch/loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": epoch/val_f1_score
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": epoch/learning_rate
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+                - 55
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+                - 55
+            "3":
+                - 2
+                - 7
+                - 16
+                - 23
+                - 38
+                - 55
+            "4": 3.10.18
+            "5": 0.19.11
+            "8":
+                - 5
+            "12": 0.19.11
+            "13": linux-x86_64
+architecture:
+    value: v0.1.5
+callback_patience:
+    value: 100
+codes:
+    value:
+        - confrontation
+        - elicitation
+        - externalization
+        - integration
+        - quick_consensus
+dataset_name:
+    value: chat
+embedding_model:
+    value: https://tfhub.dev/google/universal-sentence-encoder-multilingual/3
+epochs:
+    value: 1000
+l1_reg:
+    value: 0.01
+l2_reg:
+    value: 0.01
+learning_rate:
+    value: 0.0001
+min_words:
+    value: 1
+sent_dropout:
+    value: 0.5
+sent_hl_units:
+    value: 64
+stop_words_file:
+    value: null
+task:
+    value: undefined
+validation_split:
+    value: 0.1
+wandb_project:
+    value: intent_classifier
